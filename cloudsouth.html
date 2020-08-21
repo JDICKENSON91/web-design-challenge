@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Web Design Project - Josh Dickenson</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="WebVisualizations/resources/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+</head>
+<nav>
+  <div class="w3-bar w3-black w3-large">
+    <a href="https://jdickenson91.github.io/web-design-challenge" class="w3-bar-item w3-button w3-blue w3-hover-blue w3-myfont">Weather Analysis</a>
+    <a href="https://jdickenson91.github.io/web-design-challenge/comp" class="w3-bar-item w3-button w3-hover-blue w3-right">Comparison</a>
+    <a href="https://jdickenson91.github.io/web-design-challenge/data" class="w3-bar-item w3-button w3-hover-blue w3-right">Data</a>
+    <div class="w3-dropdown-hover w3-right">
+      <button class="w3-button w3-hover-blue ">Plots</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4 ">
+        <a href="https://jdickenson91.github.io/web-design-challenge/cloudnorth" class="w3-bar-item w3-button w3-hover-blue ">Cloudiness (NH)</a>
+        <a href="https://jdickenson91.github.io/web-design-challenge/cloudsouth" class="w3-bar-item w3-button w3-hover-blue ">Cloudiness (SH)</a>
+        <a href="https://jdickenson91.github.io/web-design-challenge/tempnorth" class="w3-bar-item w3-button w3-hover-blue ">Temperature (NH)</a>
+        <a href="https://jdickenson91.github.io/web-design-challenge/tempnorth" class="w3-bar-item w3-button w3-hover-blue ">Temperature (SH)</a>
+      </div>
+  </div>
+</nav>
+
+<body>
+
+  <!-- Creates the Overall Grid -->
+  <div class="container-fluid" style="padding-top: .5cm;">
+
+    <!-- First Row -->
+    <div class="row" style=>
+
+      
+      <div class="col" style= "color:#2196f3; padding-top: 0.2cm; padding-left:0.5cm; font-size: medium;">
+        <h2 class="w3-myfont" style=" font-size:28pt ">Cloudiness in the Southern Hemispere</h2>
+        <div class="dropdown-divider"></div>
+      </div>
+
+      <div class="col" style= "color:#2196f3; padding-top: 0.2cm; padding-left:0.5cm; font-size: medium;">
+        <h2 class="w3-myfont" style=" font-size:28pt ">Visualizations</h2>
+        <div class="dropdown-divider"></div>
+      </div>
+
+    </div>
+
+    <!-- Second Row -->
+
+
+    <!--Third Row-->
+    <div class="row" >
+
+      <!--First of Two Columns-->
+      <div class="col">
+        <img class="center" src="https://github.com/JDICKENSON91/web-design-challenge/blob/master/WebVisualizations/visualisations/Latitude%20vs.%20Cloudiness%20South.png?raw=true" alt="CloudNorth" style="width: 150mm;">
+        <p style= "font-size: 22px; padding-left: .5cm;">The purpose of this project was to analyze how weather changes as you get closer to the equator. To acomplish this analysis, we first pulled data from OpenWeather API to assemble a dataset of 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+      </div>
+      <div class="col" style="padding-left: .5cm;">
+        <a href="https://jdickenson91.github.io/web-design-challenge/cloudnorth"><img class="w3-hover-opacity" style="padding: .5cm; width:100mm" src="https://github.com/JDICKENSON91/web-design-challenge/blob/master/WebVisualizations/visualisations/Latitude%20vs.%20Cloudiness%20North.png?raw=true" alt="CloudNorth"></a>
+        <a href="https://jdickenson91.github.io/web-design-challenge/cloudsouth"><img class="img_selected w3-hover-opacity" style="padding: .5cm; width:100mm" src="https://github.com/JDICKENSON91/web-design-challenge/blob/master/WebVisualizations/visualisations/Latitude%20vs.%20Cloudiness%20South.png?raw=true" alt="CloudSouth"></a>  
+        <a href="https://jdickenson91.github.io/web-design-challenge/tempnorth"><img class="w3-hover-opacity" style="padding: .5cm; width:100mm" src="https://github.com/JDICKENSON91/web-design-challenge/blob/master/WebVisualizations/visualisations/Latitude%20vs.%20Temperature%20North.png?raw=true" alt="TempNorth"></a>
+        <a href="https://jdickenson91.github.io/web-design-challenge/tempsouth"><img class="w3-hover-opacity" style="padding: .5cm; width:100mm" src="https://github.com/JDICKENSON91/web-design-challenge/blob/master/WebVisualizations/visualisations/Latitude%20vs.%20Temperature%20South.png?raw=true" alt="TempSouth"></a>  
+      </div>
+
+
+
+    
+
+
+    </div>
+  </div>
+
+</body>
+
+
+</html>
